@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    vertical-align: middle;
+    border: 0;
+}
+
+
+.header{
+    background-color: #813588;
+    height: 88px;
+    width: 100vw;
+}
+
+
+.header ul {
+    padding-left: 40px;
+    margin: 0;
+    line-height: 1;
+    font-size: 14px;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: #ffc846;
+}
+
+
+.logo{
+    margin-left: 110px;
+    margin-top: 18px;
+
+}
+
+.menu-items{
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+li {
+    display: inline-flex;
+    width: auto;
+    list-style:none;
+
+ }
+
+ 
+.list-style{
+    list-style-type: none; 
+}
+
+.nav-bar{
+    display: flex;
+    position: absolute;
+    height: 86px;
+}
+
+.dropdown{
+    transform: rotate(90deg);
+    margin-bottom: -5px;
+}
+
+.call-icon{
+    background-color: #ffc846;
+    border-radius: 50%;
+    padding: 4px;
+    margin-left: 16px;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+.search-icon{
+    background-color: #ffc846;
+    padding:4px;
+    border-radius: 50%;
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+}
+
+.menu-login-border{
+    background-color:transparent;
+    border-radius: 7px;
+    border: 1px solid #ffc846;
+    height: 22px;
+    padding-top: 10px;
+    width: 63px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.background-banner .homebanner-pic{
+    position: relative;
+    width: 100vw;
+    object-fit: cover;
+    z-index: 1000;
+    height: 750px;
+    min-width: 100%;
+    min-height: 100%;
+    right: 50%;
+    transform: translate(50%, 0);
+    bottom: 2px;
+    right: 700px;
+    left: -683px;
+    background-size: auto;
+
+}
+
+.background-banner .sharuk-pic{
+    position: absolute;
+    height: auto;
+    bottom: 2px;
+    z-index: 1008;
+    top: 130px;
+    width: 800px;
+    right:563;
+}
+
+#wave{
+    width: 100vw;
+    right: 0px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    top: 539px;
+  text-align: center;
+  z-index: 1010;
+  overflow: hidden;
+  background-size: cover;
+  transform:rotate(0deg); 
+  transition: 0.3s;
+
+}
+
+
+
+
+/*----form design-----*/
+
+.right-form{
+    position: absolute;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 1008;
+    top:120px;
+    left: 760px;
+    background-color: #fff;
+    border-radius: 3%;
+
+}
+
+.byjus-form{
+    color: #333;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 1x;
+    padding-left: 6px;
+    padding-right: 15px;
+    width: 450px;
+    height: 430px;
+}
+
+.form-control {
+    display: block;
+    width: 98%;
+    height: 36px;
+    padding: 6px 10px;
+    font-size: 13px;
+    line-height: 1.32;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(129, 53, 136, 0.4);
+    border-radius: 8px;
+}
+
+
+.byjus-form .form-group{
+    margin: 0;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+
+.byjus-form .form-control {
+    border-color: #BCBCBC;
+    padding: 0.5rem 1rem;
+    height: auto;
+    min-height: 1.4rem;
+    margin-bottom: 1px;
+    position: relative;
+    appearance: none;
+    z-index: 0;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    resize: vertical;
+}
+
+
+
+
+.byjus-form .schedule-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 0.25rem;
+    background-color: #FF8E32;
+    background-image: linear-gradient(to right, #FF8E32, #FF5263);
+    color: #fff;
+    line-height: 1.1;
+    font-size: 1.5rem;
+    font-weight: 600;
+   top: 2.5rem;
+    border-color: #FF8E32;
+}
+
+
+
+.byjus-form .astri span{
+    color: #db4d4d;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-weight: 600;
+    right: -15rem;
+    top: -3.5rem;
+    font-size: 8px;
+}
+
+.form-astri .astri span{
+    left: 15rem;
+    top:2px;
+}
+
+.byjus-form .btn{
+    color: #fff;
+    background-color: #5C72FF;
+    background-image: linear-gradient(to right, #5C72FF, #8C3FFF);
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+    top: 0;
+    right: -1.5rem;
+    bottom: 1.1rem;
+}
+
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.title-description{
+    font-size: 0.8rem;
+    color:#666;
+    margin-bottom: 10px;
+}
+
+.form-title{
+    color: #2b2b2b;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 0 0 10;;
+}
+
+.sub-title{
+    margin-bottom: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    margin-top: 0;
+
+}
+
+.form-control-email{
+    border-color: #BCBCBC;
+    padding-left: 15px;
+    padding-right: 19px;
+    min-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    appearance: none;
+    z-index: 0;
+    width: 97%;
+}
+
+.form-control-state{
+    border-color: #BCBCBC;
+    min-height: 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+    appearance: none;
+    z-index: 0;
+    top: 0.1rem;
+    box-sizing: border-box;
+    width: 50%;
+    border:1px solid #BCBCBC;
+    float: left;
+    width: 105%;
+
+}
+
+
+
+
+.program-section{
+    padding-top: 30px;
+}
+
+.container{
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.program-section .justify-content .comprehensive{
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+    z-index: 1025;
+    font-size: 26px;
+    font-family: 'Roboto';
+}
+
+.program-section .justify-content .sub-header{
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2c2c2c;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+.learning-prg-section{
+    margin-bottom: 30px;
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    position: relative;
+    height: 310px;
+    width: 1100px;
+    margin-left: 6rem;
+    border-radius: 20px;
+}
+
+.learning-prg-title{
+    position: relative;
+    top: 0;
+    left: 50%;
+    padding: 5px 20px;
+    background-image: linear-gradient(to right, #5C72FF, #8C3FFF);
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    left:30rem;
+}
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.card-byjus-logo{
+    max-width: 140px;
+    top:2rem;
+   left: 15rem;
+    position: absolute;
+    z-index: 1200;
+}
+
+
+
+.learning-prg-card-left .left-image-card{
+    top: 0;
+    left: 12px;
+}
+
+
+
+.card-text p {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0px 10px 0px;
+    top: 20rem;
+}
+
+
+.program-section .card-body .know-more-link{
+    outline: none;
+    border:none;
+    text-decoration: none;   
+    color: #464749;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.21;
+    margin-top: 15px;
+
+    
+}
+
+.vline{
+    position: absolute;
+    width: 1px;
+    height: 130px;
+    top: 50%;
+    transform: translateY(-45%);
+    left: 50%;
+    color: #d9d9d9;
+    display: block;
+    box-shadow: rgb(202 198 198) 2px 0px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+.pointer {
+    color: #070500;
+    width: 45px;
+    height: 30px;
+    position: relative;
+    background: #fec004;
+    padding: 5px;
+    font-weight: bold;
+    right: -125px;
+    top: -20px;
+    box-shadow: -5px -5px 5px 0px #d3d3d3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.pointer:after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 20px solid #fec004;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.program-section .bj-btn {
+    font-size: 16px;
+    background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    outline: none;
+    min-width: 170px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -100px;
+   
+}
